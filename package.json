@@ -1,0 +1,17 @@
+{
+  "name": "@seansleblanc/pink-trombone",
+  "version": "1.0.0",
+  "description": "headless port of Neil Thapen's Pink Trombone",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seleb/pink-trombone.git"
+  },
+  "author": "Sean S. LeBlanc <sean.s.leblanc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seleb/pink-trombone/issues"
+  },
+  "homepage": "https://github.com/seleb/pink-trombone#readme"
+}
