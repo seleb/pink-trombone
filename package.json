@@ -1,6 +1,6 @@
 {
   "name": "@seansleblanc/pink-trombone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "headless port of Neil Thapen's Pink Trombone",
   "main": "index.js",
   "scripts": {},
