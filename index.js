@@ -73,15 +73,17 @@ export var AudioSystem = {
 
 		this.blockTime = this.blockLength / sampleRate;
 
-		var onClick = () => {
+		var unmute = () => {
 			if (!this.started) {
 				this.started = true;
 				this.startSound();
-				window.removeEventListener('click', onClick);
+				document.removeEventListener('pointerup', unmute);
+				document.removeEventListener('keydown', unmute);
 			}
 		};
 
-		window.addEventListener('click', onClick);
+		document.addEventListener('pointerup', unmute);
+		document.addEventListener('keydown', unmute);
 	},
 
 	startSound: function () {
